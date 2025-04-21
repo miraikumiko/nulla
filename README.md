@@ -6,18 +6,18 @@ Agnostic Social Network
 
 Stack: Elixir + Phoenix + PostgreSQL
 
-* Lightweight web interface
-* API compatible with other ActivityPub instances
-* Groups
-* Formatting: Text / Markdown / HTML
-* Links preview
-* Timelines: Home / Local / Global / Custom
-* Global search
-* Bookmarks
-* Profile links verification
-* Ordering profile links
-* Import/Export posts
-* Sync settings on server
+- [ ] Lightweight web interface
+- [ ] API compatible with other ActivityPub instances
+- [ ] Groups
+- [ ] Formatting: Text / Markdown / HTML
+- [ ] Links preview
+- [ ] Timelines: Home / Local / Global / Custom
+- [ ] Global search
+- [ ] Bookmarks
+- [ ] Profile links verification
+- [ ] Ordering profile links
+- [ ] Import/Export posts
+- [ ] Sync user settings on the server
 
 ### Configuration
 
