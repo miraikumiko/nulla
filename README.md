@@ -8,6 +8,7 @@ Stack: Elixir + Phoenix + PostgreSQL
 
 - [ ] Lightweight web interface
 - [ ] API compatible with other ActivityPub instances
+- [ ] JWT
 - [ ] Groups
 - [ ] Formatting: Text / Markdown / HTML
 - [ ] Links preview
@@ -18,6 +19,8 @@ Stack: Elixir + Phoenix + PostgreSQL
 - [ ] Ordering profile links
 - [ ] Import/Export posts
 - [ ] Sync user settings on the server
+- [ ] Restricted direct messages
+- [ ] Direct messages tab
 
 ### Configuration
 
@@ -50,8 +53,8 @@ Stack: Elixir + Phoenix + PostgreSQL
 
 | IP              | Datetime            |
 | ----------------|---------------------|
-| 127.0.0.1       | 2025-01-21 00:00:00 |
-| 127.127.127.127 | 2025-02-21 00:00:00 |
+| 127.0.0.1       | 2025-01-01 00:00:00 |
+| 127.127.127.127 | 2025-02-02 00:00:00 |
 
 * Clear IP address log
 
