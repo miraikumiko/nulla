@@ -45,6 +45,7 @@ Stack: Elixir + Phoenix + PostgreSQL
 * Toggle view of reacts under posts
 * Profile migration
 * Delete account
+
 ===== Disk Usage: 100 MB (20%) =====
 
 #### Security
