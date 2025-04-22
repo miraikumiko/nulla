@@ -26,6 +26,7 @@ Stack: Elixir + Phoenix + PostgreSQL
 
 * Post preview
 * Character limit per post
+* Disk space limit per user
 * Enable/Disable custom emoji for whole instance
 
 ### User settings
