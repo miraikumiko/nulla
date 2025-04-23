@@ -1,6 +1,6 @@
 # Nulla
 
-Agnostic Social Network
+An agnostic social network following the KISS and UNIX philosophy, the main principles of which are minimalism and rationalism. It implements the ActivityPub protocol and promises maximum compatibility with all existing implementations.
 
 ## TODO
 
@@ -21,6 +21,7 @@ Stack: Elixir + Phoenix + PostgreSQL
 - [ ] Sync user settings on the server
 - [ ] Restricted direct messages
 - [ ] Direct messages tab
+- [ ] Multiple accounts
 
 ### Configuration
 
