@@ -68,7 +68,7 @@ Stack: Elixir + Phoenix + PostgreSQL
 * Placeholder with rules
 
 ```
-filter keyword #tag @user@example.com example.com
+filter keyword #tag user@example.com example.com
 ```
 
 * Show replies of all followed users
