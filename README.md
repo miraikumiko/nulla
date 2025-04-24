@@ -23,12 +23,14 @@ Stack: Elixir + Phoenix + PostgreSQL
 - [ ] Direct messages tab
 - [ ] Multiple accounts
 
-### Configuration
+### Server configuration
 
 * Post preview
 * Character limit per post
 * Disk space limit per user
 * Enable/Disable custom emoji for whole instance
+* Limit on posts (count/time)
+* Limit on storage
 
 ### User settings
 
@@ -54,13 +56,20 @@ Stack: Elixir + Phoenix + PostgreSQL
 * Change password
 * Token
 * Enable/Disable email login notifications
-* Enable/Disable IP address log
+* Sessions
 
-| IP              | Datetime            |
-| ----------------|---------------------|
-| 127.0.0.1       | 2025-01-01 00:00:00 |
-| 127.127.127.127 | 2025-02-02 00:00:00 |
-
-* Clear IP address log
+| IP              | Datetime            | Action |
+| ----------------|---------------------|--------|
+| 127.0.0.1       | 2025-01-01 00:00:00 | revoke |
+| 127.127.127.127 | 2025-02-02 00:00:00 | revoke |
 
 #### Filters
+
+* Placeholder with rules
+
+```
+filter keyword #tag @user@example.com example.com
+```
+
+* Show replies of all followed users
+* Show replies of this followed users
